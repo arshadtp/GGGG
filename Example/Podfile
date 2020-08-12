@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FAIHASDSH_Example' do
+  pod 'FAIHASDSH', :path => '../'
+
+  target 'FAIHASDSH_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_FAIHASDSH_Tests {
+  umbrella header "Pods-FAIHASDSH_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

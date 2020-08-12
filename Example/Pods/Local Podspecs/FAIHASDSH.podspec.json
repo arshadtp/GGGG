@@ -1,0 +1,22 @@
+{
+  "name": "FAIHASDSH",
+  "version": "0.1.0",
+  "summary": "A short description of FAIHASDSH.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Arshad/FAIHASDSH",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arshad": "2arshu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Arshad/FAIHASDSH.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "FAIHASDSH/Classes/**/*"
+}
