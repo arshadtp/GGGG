@@ -1,3 +1,6 @@
+export EXPANDED_CODE_SIGN_IDENTITY=""
+export EXPANDED_CODE_SIGN_IDENTITY_NAME=""
+export EXPANDED_PROVISIONING_PROFILE=""
 #!/bin/sh
 set -e
 set -u

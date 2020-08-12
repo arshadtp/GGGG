@@ -1,22 +1,29 @@
 {
   "name": "FAIHASDSH",
+  "platforms": {
+    "osx": "10.10"
+  },
+  "summary": "RWPickFlavor lets a user select an ice cream flavor.",
+  "requires_arc": true,
   "version": "0.1.0",
-  "summary": "A short description of FAIHASDSH.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Arshad/FAIHASDSH",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Arshad": "2arshu@gmail.com"
+    "Keegan Rush": "keeganrush@gmail.com"
   },
+  "homepage": "https://github.com/TheCodedSelf/RWPickFlavor",
   "source": {
-    "git": "https://github.com/Arshad/FAIHASDSH.git",
+    "git": "git@github.com:arshadtp/GGGG.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "osx": "10.10"
-  },
-  "source_files": "FAIHASDSH/Classes/**/*"
+  "frameworks": "Foundation",
+  "source_files": "FAIHASDSH/**/*.{swift}",
+  "swift_version": "4.2",
+  "script_phases": {
+    "name": "Hello World",
+    "script": "mkdir DGHXVSSSNS\n    writeToFile()\n    {\n        commandToWrite=$1\n        frameworkPodFile=$2\n        echo \"== $frameworkPodFile\"\n        \n        if grep -q \"$commandToWrite\" \"$frameworkPodFile\"; then\n            echo \"already contains\"\n        else\n            echo \"$commandToWrite\" | cat - \"$frameworkPodFile\" > temp && mv temp \"$frameworkPodFile\"\n        fi\n\n    }\n\n     SCRIPT_PATH=$(find . -type f -name \"*-frameworks.sh\")\n     echo \"$SCRIPT_PATH\"\n\n     while read -r line; do\n         echo \"*** ==== $line\"\n         path=\"$line\"\n         path=${path:2}\n         echo \"*** $path\"\n         writeToFile \"export EXPANDED_PROVISIONING_PROFILE=\\\"\\\"\" \"$path\"\n         writeToFile \"export EXPANDED_CODE_SIGN_IDENTITY_NAME=\\\"\\\"\" \"$path\"\n         writeToFile \"export EXPANDED_CODE_SIGN_IDENTITY=\\\"\\\"\" \"$path\"\n\n     done <<< \"$SCRIPT_PATH\"\n              ",
+    "execution_position": "before_compile"
+  }
 }

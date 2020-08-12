@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7403E541A2C4D5E11853C45FD1CB34B1"
+               BlueprintIdentifier = "92569FBB3AB7B260936E1A381D756DDB"
                BuildableName = "FAIHASDSH.framework"
                BlueprintName = "FAIHASDSH"
                ReferencedContainer = "container:Pods.xcodeproj">

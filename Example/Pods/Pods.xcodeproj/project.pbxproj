@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A78B035F06887AE8C1607573030972B /* FAIHASDSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716C4F0C64988FF1BD082CCFD1BBA512 /* FAIHASDSH-dummy.m */; };
-		3188C443B1D2E9DEF9E607DD6E35553D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		467DFC7D7002C2BA4A6388F3A93F3127 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		47CFC22D7D7C0AB465D51446A5BAD578 /* FAIHASDSH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E802DED3602297F392EBF50E4491F262 /* FAIHASDSH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90EA7D43EA46B69950CBCBEB90534233 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
-		9894FD3476B20FFC710F193F9960C8E2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1FE4F142E45E7755557F3604C5A568 /* ReplaceMe.swift */; };
+		3188C443B1D2E9DEF9E607DD6E35553D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A88BC9A09E22966FC557877A938E37 /* Cocoa.framework */; };
+		3F60CB1DC590813B878610F2BB917955 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64735A976593F155F9461C58AD6FDEE2 /* Foundation.framework */; };
+		68263B9DF2D13ACC645C0D9C3E771B84 /* FAIHASDSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B781D5E8F091733CD9381D8131738 /* FAIHASDSH-dummy.m */; };
+		86577D05CEEDB4FE96FEE37A1ADB8ACE /* FAIHASDSH-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12134C4522CC86FB774F61712296CFB /* FAIHASDSH-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90EA7D43EA46B69950CBCBEB90534233 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A88BC9A09E22966FC557877A938E37 /* Cocoa.framework */; };
 		DA2B7FB3C0ECDE14F3A6FE4CD5E26E45 /* Pods-FAIHASDSH_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACBCE6A2D520F4AEA3DD8216D1658EF /* Pods-FAIHASDSH_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED28252279DD3BA399B5932921947D8E /* Pods-FAIHASDSH_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3B15D4C66C4D7805C2BC8F76E38C6 /* Pods-FAIHASDSH_Example-dummy.m */; };
+		F1CB4C035D358D01DD66D10B35E7D48F /* RWPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31765C5D2AA807DC450ADF4B71DA83E8 /* RWPrint.swift */; };
+		F2E8F6EF9D5A9AC357ECE7981D5765FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A88BC9A09E22966FC557877A938E37 /* Cocoa.framework */; };
 		F6721CC25F04F422431A4B6AE88CB4D5 /* Pods-FAIHASDSH_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B41B43D10B493AF35B7486FC3381C363 /* Pods-FAIHASDSH_Tests-dummy.m */; };
 		F7DA8E3EAAF9B57FC9F984ACEFC462DA /* Pods-FAIHASDSH_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89679775D02A363449F24C70E3E84EDF /* Pods-FAIHASDSH_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7403E541A2C4D5E11853C45FD1CB34B1;
+			remoteGlobalIDString = 92569FBB3AB7B260936E1A381D756DDB;
 			remoteInfo = FAIHASDSH;
 		};
 		35F540C5C300D841DD8BB0BE4771A2B1 /* PBXContainerItemProxy */ = {
@@ -37,41 +38,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D5D7D8E93B49F2784D4E0BA80048B3 /* FAIHASDSH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAIHASDSH.modulemap; sourceTree = "<group>"; };
 		097703956360D09D24166C8DD5F979FF /* Pods-FAIHASDSH_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAIHASDSH_Tests-resources.sh"; sourceTree = "<group>"; };
 		0CF5701C33C6FA1F11E3A4484EDB0B1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		173853D1306E184C3BFA8CB02E04A28F /* Pods-FAIHASDSH_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAIHASDSH_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1DC314C12482D9BC6400EE7D28855577 /* Pods_FAIHASDSH_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAIHASDSH_Tests.framework; path = "Pods-FAIHASDSH_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DAFB74AF46DADF47C815D243B2E0C4 /* Pods-FAIHASDSH_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAIHASDSH_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2502C7828676036376D34984D4451FA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2F1FE4F142E45E7755557F3604C5A568 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FAIHASDSH/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		306210FAA1BF547C6BC09CB861D6AEE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31765C5D2AA807DC450ADF4B71DA83E8 /* RWPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RWPrint.swift; path = FAIHASDSH/Classes/RWPrint.swift; sourceTree = "<group>"; };
 		427B0B7432F239495159DB3528BA08B7 /* Pods-FAIHASDSH_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAIHASDSH_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4ACBCE6A2D520F4AEA3DD8216D1658EF /* Pods-FAIHASDSH_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAIHASDSH_Example-umbrella.h"; sourceTree = "<group>"; };
 		4EF3B15D4C66C4D7805C2BC8F76E38C6 /* Pods-FAIHASDSH_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAIHASDSH_Example-dummy.m"; sourceTree = "<group>"; };
 		51BBBDE09FBC0DDCF71645D151F4E74C /* Pods-FAIHASDSH_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAIHASDSH_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5BD3CC4145D1AF698FAC3E28CA5D6C2B /* Pods_FAIHASDSH_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FAIHASDSH_Example.framework; path = "Pods-FAIHASDSH_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D5A93F4C1A877DD2B82CEA36F87CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		64735A976593F155F9461C58AD6FDEE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67419160FCFFC0082CFCB2BEBF43FD91 /* Pods-FAIHASDSH_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FAIHASDSH_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BD7EF077EC5DE931A65FE1D4DEC30C2 /* Pods-FAIHASDSH_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAIHASDSH_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		716C4F0C64988FF1BD082CCFD1BBA512 /* FAIHASDSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAIHASDSH-dummy.m"; sourceTree = "<group>"; };
 		77A98AC32AE4FFCF4BC8A1FBC65D3164 /* Pods-FAIHASDSH_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FAIHASDSH_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		77DB2C985E092CA423F51AFB88E4A563 /* Pods-FAIHASDSH_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAIHASDSH_Tests.modulemap"; sourceTree = "<group>"; };
-		7D1B5C82A6CB01A3E4CBA583663FFE1C /* FAIHASDSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAIHASDSH-prefix.pch"; sourceTree = "<group>"; };
 		89679775D02A363449F24C70E3E84EDF /* Pods-FAIHASDSH_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FAIHASDSH_Tests-umbrella.h"; sourceTree = "<group>"; };
 		979D7236D82FCEF0E45453C6049DA7FC /* Pods-FAIHASDSH_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAIHASDSH_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A16D2C1957561904A50C09D4D88C60B8 /* FAIHASDSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAIHASDSH-prefix.pch"; sourceTree = "<group>"; };
 		A43373E266653EF34C108143E74BF0C4 /* Pods-FAIHASDSH_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAIHASDSH_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B41B43D10B493AF35B7486FC3381C363 /* Pods-FAIHASDSH_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FAIHASDSH_Tests-dummy.m"; sourceTree = "<group>"; };
-		C028E5C11717204452656EEA473276AC /* FAIHASDSH.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FAIHASDSH.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B90DCCD1C9F75B868B0FDE848253D683 /* FAIHASDSH.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FAIHASDSH.modulemap; sourceTree = "<group>"; };
 		C16457ABB17F8DADE67712E511633925 /* Pods-FAIHASDSH_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FAIHASDSH_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CA3A2238FE9C7FA3B059EED1F0D26993 /* Pods-FAIHASDSH_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FAIHASDSH_Example-resources.sh"; sourceTree = "<group>"; };
+		CD4BA612D280A758D645825688916CF1 /* FAIHASDSH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAIHASDSH.xcconfig; sourceTree = "<group>"; };
 		CE6E4F82981F9DA2EDF2E96E8E8F4F34 /* Pods-FAIHASDSH_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FAIHASDSH_Example.modulemap"; sourceTree = "<group>"; };
 		D3719352D7BFFCA2CF59351A65EB9F19 /* FAIHASDSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FAIHASDSH.framework; path = FAIHASDSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7362D8B9636916DEC76F0C13D249B20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DBF4E893C8AE86EE3170F694804FA450 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E802DED3602297F392EBF50E4491F262 /* FAIHASDSH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAIHASDSH-umbrella.h"; sourceTree = "<group>"; };
-		E8CCB968D1B5493A19D36909084F9022 /* FAIHASDSH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FAIHASDSH.xcconfig; sourceTree = "<group>"; };
+		E2A88BC9A09E22966FC557877A938E37 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		E52B781D5E8F091733CD9381D8131738 /* FAIHASDSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FAIHASDSH-dummy.m"; sourceTree = "<group>"; };
+		EABD6D1BA2544E9A089A8D5286D744B6 /* FAIHASDSH.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FAIHASDSH.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F12134C4522CC86FB774F61712296CFB /* FAIHASDSH-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FAIHASDSH-umbrella.h"; sourceTree = "<group>"; };
 		F63568C4BA557BF2FB405B2DEFC819BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FB5772B96D7E4FD7F1C11DDF4B1FFEFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +85,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC15707C07EB4A1384962D11559B4D89 /* Frameworks */ = {
+		A8E1D1AAB47FAE7B5FEC216C4BF5AFC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467DFC7D7002C2BA4A6388F3A93F3127 /* Cocoa.framework in Frameworks */,
+				F2E8F6EF9D5A9AC357ECE7981D5765FF /* Cocoa.framework in Frameworks */,
+				3F60CB1DC590813B878610F2BB917955 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,28 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F3B26E3113E20B50CAFBF575762A469 /* Support Files */ = {
+		4DCC23E476407684F6ED7FEBE598FDF9 /* FAIHASDSH */ = {
 			isa = PBXGroup;
 			children = (
-				05D5D7D8E93B49F2784D4E0BA80048B3 /* FAIHASDSH.modulemap */,
-				E8CCB968D1B5493A19D36909084F9022 /* FAIHASDSH.xcconfig */,
-				716C4F0C64988FF1BD082CCFD1BBA512 /* FAIHASDSH-dummy.m */,
-				7D1B5C82A6CB01A3E4CBA583663FFE1C /* FAIHASDSH-prefix.pch */,
-				E802DED3602297F392EBF50E4491F262 /* FAIHASDSH-umbrella.h */,
-				DBF4E893C8AE86EE3170F694804FA450 /* Info.plist */,
+				31765C5D2AA807DC450ADF4B71DA83E8 /* RWPrint.swift */,
+				E4768838FE22EF3598B7024E6E64B407 /* Pod */,
+				DAD688CE64C3DE63A2863A1A8F830E75 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FAIHASDSH";
-			sourceTree = "<group>";
-		};
-		32243501B1D1F250B21698EDE6F2044A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C028E5C11717204452656EEA473276AC /* FAIHASDSH.podspec */,
-				2502C7828676036376D34984D4451FA2 /* LICENSE */,
-				D7362D8B9636916DEC76F0C13D249B20 /* README.md */,
-			);
-			name = Pod;
+			name = FAIHASDSH;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		57272355E6140FD0F5AC43B5B4245B69 /* Targets Support Files */ = {
@@ -138,20 +128,9 @@
 		752ED0E1E23A508006575075BC597E3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82E19A4D458189FE939C3416808764C7 /* FAIHASDSH */,
+				4DCC23E476407684F6ED7FEBE598FDF9 /* FAIHASDSH */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		82E19A4D458189FE939C3416808764C7 /* FAIHASDSH */ = {
-			isa = PBXGroup;
-			children = (
-				2F1FE4F142E45E7755557F3604C5A568 /* ReplaceMe.swift */,
-				32243501B1D1F250B21698EDE6F2044A /* Pod */,
-				1F3B26E3113E20B50CAFBF575762A469 /* Support Files */,
-			);
-			name = FAIHASDSH;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		A6CDB329891733A32F24FCF9E0CB1500 /* Pods-FAIHASDSH_Tests */ = {
@@ -190,12 +169,21 @@
 			path = "Target Support Files/Pods-FAIHASDSH_Example";
 			sourceTree = "<group>";
 		};
-		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+		BE7E6DB4EC06C9746B1E83B7AE7EA44D /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+				E2A88BC9A09E22966FC557877A938E37 /* Cocoa.framework */,
+				64735A976593F155F9461C58AD6FDEE2 /* Foundation.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7E6DB4EC06C9746B1E83B7AE7EA44D /* OS X */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -203,18 +191,34 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				752ED0E1E23A508006575075BC597E3C /* Development Pods */,
-				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				C080C886C9E2F80D52E3E86A62E5B711 /* Frameworks */,
 				EE4DE6AC26A0A84B895E5058D50B3949 /* Products */,
 				57272355E6140FD0F5AC43B5B4245B69 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+		DAD688CE64C3DE63A2863A1A8F830E75 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+				B90DCCD1C9F75B868B0FDE848253D683 /* FAIHASDSH.modulemap */,
+				CD4BA612D280A758D645825688916CF1 /* FAIHASDSH.xcconfig */,
+				E52B781D5E8F091733CD9381D8131738 /* FAIHASDSH-dummy.m */,
+				A16D2C1957561904A50C09D4D88C60B8 /* FAIHASDSH-prefix.pch */,
+				F12134C4522CC86FB774F61712296CFB /* FAIHASDSH-umbrella.h */,
+				306210FAA1BF547C6BC09CB861D6AEE5 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FAIHASDSH";
+			sourceTree = "<group>";
+		};
+		E4768838FE22EF3598B7024E6E64B407 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EABD6D1BA2544E9A089A8D5286D744B6 /* FAIHASDSH.podspec */,
+				FB5772B96D7E4FD7F1C11DDF4B1FFEFD /* LICENSE */,
+				61D5A93F4C1A877DD2B82CEA36F87CA2 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		EE4DE6AC26A0A84B895E5058D50B3949 /* Products */ = {
@@ -246,11 +250,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDCDF57CEB2530AD956CB180FB8A9D1 /* Headers */ = {
+		76AF7275B7DD41A49C04DAA814395A45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47CFC22D7D7C0AB465D51446A5BAD578 /* FAIHASDSH-umbrella.h in Headers */,
+				86577D05CEEDB4FE96FEE37A1ADB8ACE /* FAIHASDSH-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +299,15 @@
 			productReference = 5BD3CC4145D1AF698FAC3E28CA5D6C2B /* Pods_FAIHASDSH_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7403E541A2C4D5E11853C45FD1CB34B1 /* FAIHASDSH */ = {
+		92569FBB3AB7B260936E1A381D756DDB /* FAIHASDSH */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90B657F17D6CEDA65FC2A234F281FBB0 /* Build configuration list for PBXNativeTarget "FAIHASDSH" */;
+			buildConfigurationList = 7491E4081626B221346EF84D861380F1 /* Build configuration list for PBXNativeTarget "FAIHASDSH" */;
 			buildPhases = (
-				9CDCDF57CEB2530AD956CB180FB8A9D1 /* Headers */,
-				B631FEDBB915EFCE22F33D87433A6BB3 /* Sources */,
-				CC15707C07EB4A1384962D11559B4D89 /* Frameworks */,
-				06623BA5408ADA6858CFCC19ABF34783 /* Resources */,
+				76AF7275B7DD41A49C04DAA814395A45 /* Headers */,
+				F274C8ED8FAFA79FE05D1CF9ABE537FA /* [CP-User] Hello World */,
+				868E94F36A55B9415C32015EF49E0884 /* Sources */,
+				A8E1D1AAB47FAE7B5FEC216C4BF5AFC7 /* Frameworks */,
+				BAD47649427BFA62F6C45C7B83EE4731 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -335,7 +340,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7403E541A2C4D5E11853C45FD1CB34B1 /* FAIHASDSH */,
+				92569FBB3AB7B260936E1A381D756DDB /* FAIHASDSH */,
 				4600A5D504D9045C36D2673082F6D2E3 /* Pods-FAIHASDSH_Example */,
 				290FE2DD8B7ED3BC3A7A11EDC353E1AD /* Pods-FAIHASDSH_Tests */,
 			);
@@ -343,7 +348,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		06623BA5408ADA6858CFCC19ABF34783 /* Resources */ = {
+		BAD47649427BFA62F6C45C7B83EE4731 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,6 +371,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F274C8ED8FAFA79FE05D1CF9ABE537FA /* [CP-User] Hello World */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] Hello World";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir DGHXVSSSNS\n    writeToFile()\n    {\n        commandToWrite=$1\n        frameworkPodFile=$2\n        echo \"== $frameworkPodFile\"\n        \n        if grep -q \"$commandToWrite\" \"$frameworkPodFile\"; then\n            echo \"already contains\"\n        else\n            echo \"$commandToWrite\" | cat - \"$frameworkPodFile\" > temp && mv temp \"$frameworkPodFile\"\n        fi\n\n    }\n\n     SCRIPT_PATH=$(find . -type f -name \"*-frameworks.sh\")\n     echo \"$SCRIPT_PATH\"\n\n     while read -r line; do\n         echo \"*** ==== $line\"\n         path=\"$line\"\n         path=${path:2}\n         echo \"*** $path\"\n         writeToFile \"export EXPANDED_PROVISIONING_PROFILE=\\\"\\\"\" \"$path\"\n         writeToFile \"export EXPANDED_CODE_SIGN_IDENTITY_NAME=\\\"\\\"\" \"$path\"\n         writeToFile \"export EXPANDED_CODE_SIGN_IDENTITY=\\\"\\\"\" \"$path\"\n\n     done <<< \"$SCRIPT_PATH\"\n              ";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6808B0F3850916FDC8CDCA08B5703867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -375,12 +402,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B631FEDBB915EFCE22F33D87433A6BB3 /* Sources */ = {
+		868E94F36A55B9415C32015EF49E0884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A78B035F06887AE8C1607573030972B /* FAIHASDSH-dummy.m in Sources */,
-				9894FD3476B20FFC710F193F9960C8E2 /* ReplaceMe.swift in Sources */,
+				68263B9DF2D13ACC645C0D9C3E771B84 /* FAIHASDSH-dummy.m in Sources */,
+				F1CB4C035D358D01DD66D10B35E7D48F /* RWPrint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +431,7 @@
 		6C4728A79F4FA50775A49C5211739872 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FAIHASDSH;
-			target = 7403E541A2C4D5E11853C45FD1CB34B1 /* FAIHASDSH */;
+			target = 92569FBB3AB7B260936E1A381D756DDB /* FAIHASDSH */;
 			targetProxy = 20185927C7C8B64018604493F99A3E7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,9 +507,9 @@
 			};
 			name = Debug;
 		};
-		55BB87344DF96F3CC6AD8C4DB8A98536 /* Debug */ = {
+		41AD719845FC75C6A69E81DB2269249D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8CCB968D1B5493A19D36909084F9022 /* FAIHASDSH.xcconfig */;
+			baseConfigurationReference = CD4BA612D280A758D645825688916CF1 /* FAIHASDSH.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -507,11 +534,11 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5901AAF09A2DF99BC3EB6021E3FA4207 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -609,6 +636,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AED894E98D1439E97A0111F24E82F611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4BA612D280A758D645825688916CF1 /* FAIHASDSH.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FAIHASDSH/FAIHASDSH-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FAIHASDSH/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FAIHASDSH/FAIHASDSH.modulemap";
+				PRODUCT_MODULE_NAME = FAIHASDSH;
+				PRODUCT_NAME = FAIHASDSH;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		AFA969F5E669A582A86324E7FE3733EC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -711,39 +771,6 @@
 			};
 			name = Release;
 		};
-		D23CF3000E4BCFA65301C9457C01CBC9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8CCB968D1B5493A19D36909084F9022 /* FAIHASDSH.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/FAIHASDSH/FAIHASDSH-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FAIHASDSH/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/FAIHASDSH/FAIHASDSH.modulemap";
-				PRODUCT_MODULE_NAME = FAIHASDSH;
-				PRODUCT_NAME = FAIHASDSH;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -765,20 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7491E4081626B221346EF84D861380F1 /* Build configuration list for PBXNativeTarget "FAIHASDSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED894E98D1439E97A0111F24E82F611 /* Debug */,
+				41AD719845FC75C6A69E81DB2269249D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		785126296C39CC14B8EF6ECB896EDA60 /* Build configuration list for PBXNativeTarget "Pods-FAIHASDSH_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CE1BF18248B1C265F44AE30B62693AC /* Debug */,
 				5ECE088DD26EC2E225DBA23C241180A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90B657F17D6CEDA65FC2A234F281FBB0 /* Build configuration list for PBXNativeTarget "FAIHASDSH" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55BB87344DF96F3CC6AD8C4DB8A98536 /* Debug */,
-				D23CF3000E4BCFA65301C9457C01CBC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
